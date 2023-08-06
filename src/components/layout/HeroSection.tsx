@@ -121,6 +121,7 @@ const HeroSection = () => {
             variants={animationAndroid}
             initial="start"
             animate="end"
+            // @ts-ignore
             transition={animationTransition}
             className="absolute flex justify-center items-center bottom-12 left-10 md:bottom-20  md:left-40 before:content-[''] before:z-10 before:absolute before:w-14 before:h-14  md:before:w-20  md:before:h-20 group before:bg-green-android before:rounded-full after:content-[''] after:z-10 after:absolute after:w-60 after:h-60 md:after:w-[30rem]  md:after:h-[30rem] after:border-2 after:border-gray-100 after:rounded-full"
           >
@@ -143,6 +144,7 @@ const HeroSection = () => {
             variants={animationReact}
             initial="start"
             animate="end"
+            // @ts-ignore
             transition={animationTransitionReact}
             className="absolute flex justify-center items-center top-28 right-32 md:top-32  md:right-80 before:content-[''] before:z-10 before:absolute before:w-14 before:h-14  md:before:w-20  md:before:h-20  before:bg-blue-react before:rounded-full after:content-[''] after:z-10 after:absolute after:w-80 after:h-80 md:after:w-[40rem] md:after:h-[40rem] after:border-2 after:border-gray-100 after:rounded-full"
           >
@@ -165,6 +167,7 @@ const HeroSection = () => {
             variants={animationFigma}
             initial="start"
             animate="end"
+            // @ts-ignore
             transition={animationTransition}
             className="absolute flex justify-center items-center bottom-52 right-10  md:bottom-40  md:right-44 before:content-[''] before:z-10 before:absolute before:w-14 before:h-14  md:before:w-20  md:before:h-20  before:bg-blue-react before:rounded-full after:content-[''] after:z-10 after:absolute after:w-72 after:h-72 md:after:w-[22rem] md:after:h-[22rem] after:border-2 after:border-gray-100 after:rounded-full"
           >
