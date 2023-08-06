@@ -15,8 +15,7 @@ if (isGithubActions) {
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "akamai",
-    path: "",
+    unoptimized: true,
   },
   assetPrefix: assetPrefix,
   basePath: basePath,
