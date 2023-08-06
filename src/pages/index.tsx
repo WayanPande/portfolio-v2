@@ -1,3 +1,4 @@
+import HeroSection from "@/components/layout/HeroSection";
 import Navbar from "../components/layout/Navbar";
 import { motion } from "framer-motion";
 
@@ -24,6 +25,7 @@ export default function Home() {
         className="relative"
       >
         <Navbar />
+        <HeroSection />
       </motion.div>
     </>
   );
