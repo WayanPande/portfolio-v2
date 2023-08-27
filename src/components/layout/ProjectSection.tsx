@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../card/ProjectCard";
-import antrie from "../../assets/antrie.jpg";
+import antrie from "@/assets/antrie.jpg";
 
 const ProjectSection = () => {
   return (
