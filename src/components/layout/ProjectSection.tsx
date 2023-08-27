@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectCard from "../card/ProjectCard";
-import antrie from "@/assets/antrie.jpg";
 
 const ProjectSection = () => {
   return (
@@ -9,10 +8,10 @@ const ProjectSection = () => {
         Selected Projects
       </h1>
       <div className="mt-10 sm:mt-0 xl:w-10/12 mx-auto sm:mx-11 md:mx-24">
-        <ProjectCard id={1} img={antrie} role="Front-end" name="Antrie" />
+        {/* <ProjectCard id={1} img={antrie} role="Front-end" name="Antrie" />
         <ProjectCard id={2} img={antrie} role="Front-end" name="Antrie" />
         <ProjectCard id={3} img={antrie} role="Fullstack" name="BBH" />
-        <ProjectCard id={4} img={antrie} role="Front-end" name="Antrie" />
+        <ProjectCard id={4} img={antrie} role="Front-end" name="Antrie" /> */}
       </div>
     </div>
   );
